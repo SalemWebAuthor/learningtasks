@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Omelette</title>
+	</head>
+	<body>
+		<h1>Omelette</h1>
+		<img src="Omelette Resized.png" title="Omelette" alt="Image of Omelette"/>
+		<h2>Ingredients</h2>
+			
+			<ul>
+				<li>3 eggs</li>
+				<li>Salt and pepper</li>
+				<li>Butter</li>
+				<li>Grated cheese (optional)</li>
+				<li>Mixed herbs (optional)</li>
+			</ul>
+
+		<h2>Method</h2>
+
+			<ol>
+				<li>Mix the eggs in any sort of bowl or jug you like (a pint glass works well!) with salt, pepper and herbs if desired.</li>
+				<br>
+
+				<li>Heat the butter (or oil) in a reasonably large frying pan.</li>
+				<br>
+
+				<li>After 30 seconds or so the top should firm up, at this point add grated cheese if you like.</li>
+				<br>
+
+				<li>Continue cooking a little until the cheese begins to melt, then fold the omelette in half with a bendy spatula</li>
+				<br>
+
+				<li>If its nice and cooked on the bottom alreadt then serve, otherwise, continue cooking on each side a little more!</li>
+				<br>
+
+		<p>Sometimes I make an omelette with loads of onions, chopped sausages and 
+vegetables in. If you do this then you probably wont be able to fold it so 
+instead, pop the pan under a grill to finish the top off after its cooked 
+underneath!</p>
+				
+
+			</ol>
+		
+
+</body>
+</html>
