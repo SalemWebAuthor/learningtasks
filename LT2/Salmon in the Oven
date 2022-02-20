@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Salmon in the Oven</title>
+	</head>
+	<body>
+		<h1>Salmon in the Oven</h1>
+		<img src="Salmon in the Oven Resized.png" title="Salmon in the Oven" alt="Image of Salmon in the Oven"/>
+		<h2>Ingredients</h2>
+			
+			<ul>
+				<li>1 fillet of salmon, skinned (tails are cheapest)</li>
+				<li>Any veggies you like: tomatoe, peppers, zucchinis, etc</li>
+				<li>Liquid cream</li>
+				<li>Black pepper</li>
+				<li>Salt</li>
+			</ul>
+
+		<h2>Method</h2>
+
+			<ol>
+				<li>Put the salmon in an oven dish - add chopped veggies and cream on top-
+with salt and pepper</li>
+				<br>
+
+				<li>Grill on a high heat for about 25 min. If it is a thick fillet, it will take longer to 
+cook through, always check if the middle if cooked.</li>
+				<br>
+
+				<li>You can serve it with rice or pasta</li>
+				<br>
+
+			</ol>
+		
+
+</body>
+</html>
