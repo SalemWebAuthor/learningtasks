@@ -1,0 +1,216 @@
+body {
+    background-image: url(dark\ bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1350px;
+}
+#menu {
+    width: 100%;
+    height: 40px;
+}
+
+#menu ul {
+    list-style-type: none;
+    float: right;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu a:link {
+    background-color: red;
+    margin: 10px;
+}
+
+#menu a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: white;
+}
+
+#menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 2px 20px 0px;
+}
+
+#content {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1200px;
+    border: 2px solid red;
+    background-color: black;
+}
+
+#content-two {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1300px;
+    border: 2px solid red;
+    background-color: black;
+}
+
+#content-three {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1300px;
+    border: 2px solid red;
+    background-color: black;
+}
+
+#content-four {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1300px;
+    border: 2px solid red;
+    background-color: black;
+}
+
+#content h1 {
+    margin: 36px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+    text-decoration: underline;
+    color: red;
+}
+
+#content-two h1 {
+    margin: 24px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-decoration: underline;
+    color: red;
+}
+
+#content-two h2 {
+    margin: 24px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-decoration: underline;
+    color: red;
+}
+
+#content-two h3 {
+    margin: 46px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    text-decoration: none;
+    color: red;
+}
+
+#content-three h1 {
+    margin: 46px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    text-decoration: none;
+    color: red;
+}
+
+#content-four h1 {
+    margin: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-decoration: underline;
+    color: red;
+}
+
+#content-four h2 {
+    margin: 36px;
+    margin-top: 100px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-decoration: underline;
+    color: red;
+}
+
+#content p {
+    color: white;
+    margin: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#content-two #p1 {
+    color: white;
+    margin: 20px;
+    font-size: 22px;
+    text-align: left;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+#content-two #p2 {
+    color: white;
+    margin: 20px;
+    font-size: 22px;
+    text-align: right;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+#content-three p {
+    margin: 46px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+#content-three #px {
+    margin: 46px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    color: red;
+}
+
+#content-four p {
+    color: white;
+    margin: 40px 120px;
+    font-size: 22px;
+    text-align: center;
+    text-indent: 5px;
+}
+
+#content-four li {
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+#content-three img {
+    margin: 40px;
+    border: 2px solid red;
+    margin-left: 115px;
+}
+
+#content-four img {
+    margin: 0 auto;
+    margin-left: 425px;
+    border: 2px solid red;
+    float: center;
+}
