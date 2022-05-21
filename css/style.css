@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+body {
+    background-image: url(endterm-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 6vh;
+}
+
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    float: center;
+    color: rgb(5, 3, 169);
+    padding: 3px 8px;
+    border: 3px solid rgb(5, 3, 169);
+    border-radius: 25px 15px;
+    margin-left: 30px;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+#content-home {
+    animation: transitionIn 1s;
+}
+
+#content-about {
+    margin-top: 25px;
+    animation: transitionIn 1s;
+}
+
+#content-work {
+    animation: transitionIn 1s;
+}
+
+.nav-links {
+    list-style-type: none;
+    float: right;
+}
+
+.nav-links li{
+    display: inline-block;
+}
+
+.nav-links a:link {
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(5, 3, 169);
+    border-radius: 20px 15px;
+}
+
+.nav-links li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(5, 3, 169);
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1350px;
+}
+
+#content-home h1 {
+    color: rgb(5, 3, 169);
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 200px 50px 50px 50px;
+}
+
+#content-home p {
+    padding: 5px;
+    color: rgb(5, 3, 169);
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 50px;
+    border-radius: 10px;
+}   
+#content-about h1 {
+    color: rgb(5, 3, 169);
+    font-size: 48px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#content-about li {
+    color: rgb(5, 3, 169);
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    list-style: none;
+}
+
+#content-about h2 {
+    color: rgb(5, 3, 169);
+    font-size: 48px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#content-about p {
+    color: rgb(5, 3, 169);
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#content-about img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-left: 550px;
+    border: 5px solid rgb(5, 3, 169);
+    border-radius: 50%;
+}
+
+.social-menu {
+    margin: 0 auto;
+    margin-left: 570px;
+}
+
+.fa {
+    margin: 20px;
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(5, 3, 169);
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: white;
+    color: rgb(5, 3, 169);
+    transition: all 0.5s linear;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: white;
+    color: rgb(5, 3, 169);
+    transition: all 0.5s linear;
+}
+
+.fa-instagram:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+}
+
+.fa-youtube-play {
+    background: white;
+    color: rgb(5, 3, 169);
+    transition: all 0.5s linear;
+}
+
+.fa-youtube-play:hover {
+    background: #FF0000;
+    color: white;
+}
+
+#content-work h1 {
+    color: rgb(5, 3, 169);
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 50px;
+}
+
+#content-work p {
+    color: rgb(5, 3, 169);
+    text-align: center;
+    margin: 10px;
+    margin-left: 415px;
+    width: 525px;
+    height: 200px;
+    margin-top: 25px;
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#content-work #work-button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(5, 3, 169);
+    padding: 3px 8px;
+    border: 3px solid rgb(5, 3, 169);
+    border-radius: 10px;
+    transition: all 0.5s linear;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 620px;
+}
+
+#content-work #work-button:hover {
+    background-color: rgb(5, 3, 169);
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 3px solid rgb(5, 3, 169);
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    max-width: 60%;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(5, 3, 169);
+}
+
+.modal-header .title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(5, 3, 169);
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(5, 3, 169);
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-body li {
+    list-style: none;
+}
+
+.modal-body li a {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(5, 3, 169);
+}
+
