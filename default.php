@@ -9,7 +9,7 @@
             <div id="content-home">
                 <h1>Welcome to my website!</h1>
                 <p>I am Lester Godwin P. Salem <br>
-                and This is my Designers Portfolio!</p>
+                and This is my Web Portfolio!</p>
             </div>
         </div>
     </body>
