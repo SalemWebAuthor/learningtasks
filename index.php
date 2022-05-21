@@ -1,17 +1,37 @@
+<?php
+$page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
+?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Home Page</title>
+        <title>ENDTERM</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Public+Sans:wght@100;300&family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
     </head>
     <body>
-    <h1>Welcome to My Website! I am Lester Godwin P. Salem!</h1>
-    <ul>
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="/LT2/index.html">LEARNING TASK 2</a></li>
-        <li><a href="/LT3/index.html">LEARNING TASK 3</a></li>
-        <li><a href="/LT4/index.html">LEARNING TASK 4</a></li>
-        <li><a href="/LT5/index.html">LEARNING TASK 5</a></li>
-        <li><a href="/CLE1MT/index.html">CLE1MT</a></li>
-    </ul>
+        <div id="navigation">
+            <div class="logo">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php?page=About">Profile & Contacts</a></li>
+                <li><a href="index.php?page=Works">Works</a></li>
+            </ul>
+        </div>
+        <?php
+            switch($page){
+                case "About":
+                    include "About.php";
+                break;
+                case "Works":
+                    include "Works.php";
+                break;
+                default:
+                    include "default.php";
+                }
+            ?>
     </body>
 </html>
